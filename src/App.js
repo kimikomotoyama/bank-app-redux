@@ -21,9 +21,8 @@ class App extends Component {
         <section className="App__buttons">
           <Button dataAmount="10000" label="WITHDRAW $10,000" />
           <Button dataAmount="5000" label="WITHDRAW $5,000" />
+          <Button dataAmount={totalAmount} label="Give away all your cash to charity"></Button>
         </section>
-
-        <p className="App__giveaway">Give away all your cash to charity</p>
       </div>
     );
   }
